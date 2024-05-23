@@ -1,0 +1,66 @@
+body{
+    text-align: center; 
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.692);
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(52, 66, 43);
+   display: inline;
+   padding-right: 2rem;
+   padding-left: 2rem;
+}
+.images{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex ;
+    background-color: white;
+    /* margin-bottom: 100px; */
+    
+}
+img{
+   border: none;
+ 
+    width: 200px;
+    aspect-ratio : 3/2 ;
+    object-fit: contain;
+}
+ 
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.score_board{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 2rem;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ margin: 1.5rem ;
+ gap: 6rem;
+}
+
+#user_score,
+#comp_score{
+    font-size: 3rem;
+}
+ .msg-container{
+
+    margin-top: 10px;
+    padding-bottom: 30px;
+   
+ }
+#msg{
+    color: rgb(255, 255, 255); 
+    background-color:rgba(0, 0, 0, 0.788) ;
+    font-size: 1.5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
